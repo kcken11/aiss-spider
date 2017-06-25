@@ -2,7 +2,7 @@
 import MySQLdb
 import json
 
-db = MySQLdb.connect(host="yanxxcloud.cn", db="spider", user="yanwei", passwd="kxcneyt228",charset="utf8")
+db = MySQLdb.connect(host="127.0.0.1", db="spider", user="username", passwd="password",charset="utf8")
 
 cursor = db.cursor()
 
